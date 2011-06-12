@@ -1,0 +1,59 @@
+
+#layerContainer {
+    position: relative;
+}
+
+#levelDataProperties{
+	margin-top: 10px;
+	border-top: 1px solid #333;
+	min-height: 28px;
+	max-height: 140px;
+	overflow: auto;
+}
+
+div.levelDataProperty {
+	color: #aaa;
+	padding: 2px 0;
+	border-bottom: 1px solid #333;
+	cursor: pointer;
+}
+
+div.levelDataProperty:hover {
+	background-color: #333;
+}
+
+div.levelDataProperty .key {
+	width: 55%;
+	display: block;
+	float: left;
+	margin: 0 0px 0 0;
+	padding: 0;
+	text-align: right;
+	color: #fff;
+	overflow: hidden;
+}
+
+div.levelDataProperty .value {
+	padding: 0 0 0 2px;
+	color: #fff;
+}
+
+
+dl#levelDataPropertyInput {
+	padding: 8px 0;
+}
+
+dl#levelDataPropertyInput dt {
+	width: 40px;
+	display: block;
+	float: left;
+	margin: 0 4px 0 0;
+	padding: 4px 0 0 0;
+	text-align: right;
+}
+
+dl#levelDataPropertyInput dd {
+	display: block;
+	margin: 0;
+	padding: 2px 0;
+}
