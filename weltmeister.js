@@ -1,5 +1,5 @@
 ig.module(
-	'plugins.leveldata.weltmeister'
+	'plugins.impact-leveldata.weltmeister'
 )
 .requires(
     'weltmeister.weltmeister'
@@ -17,7 +17,7 @@ wm.Weltmeister.inject({
         $('<link />', {
             rel: 'stylesheet',
             type: 'text/css',
-            href: wm.config.project.modulePath + 'plugins/levelData/weltmeister.css'
+            href: wm.config.project.modulePath + 'plugins/impact-leveldata/weltmeister.css'
         }).appendTo('head');
         
 		// Create Level Data Container
